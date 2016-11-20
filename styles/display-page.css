@@ -5,48 +5,67 @@
  		      3: How to even out the right border
  		         of the blue and orange blocks.*/
 
- main {
- 	padding: 30px;
- 	font-size: 0;
- 	width: 800px;
- 	height: 500px;
- 	margin-left: auto;
- 	margin-right: auto;
+main, .footer {
+	padding: 30px;
+	font-size: 0;
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	margin-top: 30px;
+	height: 100px;
+	font-size: 12px;
+}
+
+.top-row {
+	height: 200px;
+}
+
+.bottom-row {
+	height: 300px;
+}
+
+.box {
+ 	display: inline-block;
  }
- .color1 {
+
+ .box-1 {
  	width: 50%;
  	height: 200px;
- 	display: inline-block;
  	font-size: 0;
- 	border: solid black 1px;
+ 	/*border: solid black 1px;*/
  }
 
  .green {
  	background-color: green;
-border: solid black 1px;
+/*border: solid black 1px;*/
  }
  .blue {
  	background-color: blue;
- border: solid black 1px;
+ /*border: solid black 1px;*/
  }  
 
- .color2 {
- 	width: 33.333%;
- 	height: 300px;
- 	display: inline-block;
+
+ .box-2 {
+ 	width: 33%;
  	font-size: 0;
- border: solid black 1px;
+ 	height: 300px;
  }
 
  .grey {
  	background-color: grey;
- border: solid black 1px;
+ /*border: solid black 1px;*/
  }
+
  .black {
  	background-color: black;
- border: solid black 1px;
+ /*border: solid black 1px;*/
  }
  .orange {
  	background-color: orange;
- border: solid black 1px;
+ 	width: 34%;
+ /*border: solid black 1px;*/
  }
