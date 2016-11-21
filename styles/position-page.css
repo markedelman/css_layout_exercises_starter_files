@@ -1,1 +1,29 @@
 
+nav	{
+	position: fixed;
+	width: 100%;
+	background-color: grey;
+	height: 60px;
+}
+nav .cat { height: 50px;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	/*vertical-align: middle;*/
+	border: 1px solid black;
+}
+ul {
+	display: inline-block;
+	
+}
+
+li {
+	display: inline;
+}
+
+div {
+	margin: 200px;
+	width: 600px;
+	height: 300px;
+	border: green dashed;
+}
